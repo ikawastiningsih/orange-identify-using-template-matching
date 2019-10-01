@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ika.a32">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+       <activity
+            android:name=".MainActivity"
+            android:label="Identifikasi Buah">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name=".Conv"
+            android:label="Identifikasi Buah">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+       <!-- <activity
+            android:name=".RGBtoGray"
+            android:label="Identifikasi Buah">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+
+        <activity
+            android:name=".Hasil"
+            android:label="Beranda" />
+        <activity
+            android:name=".Home"
+            android:label="Beranda" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".Info"
+            android:label="Info" />
+        <activity
+            android:name=".Deteksi"
+            android:label="Ambil Gambar" />
+        <activity
+            android:name=".Profile"
+            android:label="Profil Pengguna" />
+        <activity
+            android:name=".Device"
+            android:label="Tentang Aplikasi" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name=".User"
+            android:label="Sign Up" />
+        <activity
+            android:name=".Daftar"
+            android:label="Daftar" />
+        <activity
+            android:name=".Nilai"
+            android:label="Nilai" />
+        <activity
+            android:name=".Beranda"
+            android:label="Beranda" />
+        <activity
+            android:name=".Profil"
+            android:label="Profile" />
+        <activity
+            android:name=".Toko"
+            android:label="Profile Toko" />
+        <activity
+            android:name=".Conv"
+            android:label="Convert" />
+        <activity android:name=".infotoko" />
+        <activity android:name=".RGBtoGray" />
+        <!--<activity android:name=".MainActivity"></activity>-->
+        <!--<activity android:name=".RGBtoGray"></activity>-->
+    </application>
+ 
+</manifest>
